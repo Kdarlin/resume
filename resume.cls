@@ -835,6 +835,13 @@
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
       \setlength{\leftmargin}{0.25in}}}{\end{list}}
 
+\newenvironment{list3}{
+  \begin{list}{}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.12in}}}{\end{list}}
+
 %\newcommand{\mysidestyle}{\footnotesize\sc}
 \newcommand{\mysidestyle}{\small\sc}
 \newcommand{\myheadingstyle}{\sl}
